@@ -85,7 +85,7 @@ Fuzzy::getWords (char *word, List & words)
   HtStripPunctuation (stripped);
   generateKey (stripped, fuzzyKey);
   if (debug > 2)
-    cout << "\n\tkey: " << fuzzyKey << endl;
+    cout << _("\n\tkey: ") << fuzzyKey << endl;
 
   words.Destroy ();
 
